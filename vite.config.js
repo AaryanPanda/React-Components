@@ -3,10 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(() => {
   return {
-    build: {
-      outDir: 'build',
-    },
-    plugins: [react()],
+    plugins: [react()],base:"/React-Components",
     assetsInclude: ["**/*.jpg", "**/*.JPG"],
   };
 });
